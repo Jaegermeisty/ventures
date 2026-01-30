@@ -1,0 +1,50 @@
+<svg width="400" height="800" viewBox="0 0 400 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- iPhone frame background -->
+  <rect width="400" height="800" rx="40" fill="#1C3A5E"/>
+
+  <!-- Status bar -->
+  <text x="30" y="50" font-family="sans-serif" font-size="16" font-weight="600" fill="white">12:18</text>
+  <rect x="160" y="35" width="80" height="25" rx="12" fill="#000"/>
+
+  <!-- Widget -->
+  <rect x="30" y="90" width="340" height="180" rx="20" fill="#F5F0E8"/>
+  <text x="200" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2D2A26">
+    In books we seek God;
+  </text>
+  <text x="200" y="185" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#2D2A26">
+    in prayer we find him.
+  </text>
+  <text x="280" y="230" text-anchor="end" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#666">
+    — St. Padre Pio
+  </text>
+
+  <!-- Widget label -->
+  <text x="200" y="300" text-anchor="middle" font-family="sans-serif" font-size="12" fill="rgba(255,255,255,0.7)">Catholic Quotes</text>
+
+  <!-- App icons grid -->
+  <g transform="translate(40, 330)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="60" height="60" rx="14" fill="linear-gradient(#FF6B6B, #EE5A5A)"/>
+    <rect x="80" y="0" width="60" height="60" rx="14" fill="#FF3B30"/>
+    <rect x="160" y="0" width="60" height="60" rx="14" fill="#FFF"/>
+    <rect x="240" y="0" width="60" height="60" rx="14" fill="#FFF"/>
+    <!-- Row 2 -->
+    <rect x="0" y="80" width="60" height="60" rx="14" fill="#1C1C1E"/>
+    <rect x="80" y="80" width="60" height="60" rx="14" fill="#1C1C1E"/>
+    <rect x="160" y="80" width="60" height="60" rx="14" fill="#007AFF"/>
+    <rect x="240" y="80" width="60" height="60" rx="14" fill="#FFF"/>
+    <!-- Row 3 -->
+    <rect x="80" y="160" width="60" height="60" rx="14" fill="linear-gradient(#4CD964, #30D158)"/>
+    <rect x="160" y="160" width="60" height="60" rx="14" fill="#1C1C1E"/>
+  </g>
+
+  <!-- Search bar -->
+  <rect x="100" y="580" width="200" height="36" rx="18" fill="rgba(255,255,255,0.2)"/>
+  <text x="200" y="603" text-anchor="middle" font-family="sans-serif" font-size="14" fill="rgba(255,255,255,0.6)">Search</text>
+
+  <!-- Dock -->
+  <rect x="20" y="650" width="360" height="90" rx="30" fill="rgba(255,255,255,0.2)"/>
+  <rect x="50" y="670" width="50" height="50" rx="12" fill="linear-gradient(#FF6B6B, #EE5A5A)"/>
+  <rect x="120" y="670" width="50" height="50" rx="12" fill="#F5F0E8"/>
+  <rect x="190" y="670" width="50" height="50" rx="12" fill="#34C759"/>
+</svg>
