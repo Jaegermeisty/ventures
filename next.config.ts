@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/ventures',
-  assetPrefix: '/ventures',
   trailingSlash: true,
 };
 
