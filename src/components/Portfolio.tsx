@@ -19,7 +19,7 @@ const projects: Project[] = [
     description:
       'A book-centric journaling web application for readers who write about what they read. Capture your thoughts, track your reading journey, and build a personal library of insights.',
     type: 'web',
-    image: '/ventures/palescript.png',
+    image: '/palescript.png',
     link: 'https://palescript.com',
     tags: ['Web App', 'React', 'Journaling'],
   },
@@ -28,7 +28,7 @@ const projects: Project[] = [
     description:
       'An iOS app that delivers a new inspirational quote every day directly to your home screen widget. Start each day with wisdom and reflection.',
     type: 'ios',
-    image: '/ventures/catholic-quotes.png',
+    image: '/catholic-quotes.png',
     link: 'https://apps.apple.com/no/app/daily-catholic-quotes/id6754383149',
     tags: ['iOS App', 'Swift', 'Widgets'],
   },
