@@ -100,20 +100,20 @@ export default function Hero({ isReady }: HeroProps) {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <h1
           ref={logoRef}
-          className="logo-text text-5xl md:text-7xl lg:text-8xl mb-8 overflow-hidden"
+          className="logo-text text-5xl md:text-7xl lg:text-8xl mb-8 overflow-hidden flex flex-wrap justify-center gap-x-[0.3em]"
           style={{ perspective: '1000px' }}
         >
-          {logoText.split('').map((char, i) => (
-            <span
-              key={i}
-              className="letter inline-block"
-              style={{
-                opacity: 0,
-                display: char === ' ' ? 'inline' : 'inline-block',
-                width: char === ' ' ? '0.3em' : 'auto',
-              }}
-            >
-              {char === ' ' ? '\u00A0' : char}
+          {logoText.split(' ').map((word, wordIndex) => (
+            <span key={wordIndex} className="inline-flex whitespace-nowrap">
+              {word.split('').map((char, charIndex) => (
+                <span
+                  key={`${wordIndex}-${charIndex}`}
+                  className="letter inline-block"
+                  style={{ opacity: 0 }}
+                >
+                  {char}
+                </span>
+              ))}
             </span>
           ))}
         </h1>
