@@ -100,7 +100,7 @@ export default function Hero({ isReady }: HeroProps) {
       <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
         <h1
           ref={logoRef}
-          className="logo-text text-5xl md:text-7xl lg:text-8xl mb-8 overflow-hidden flex flex-wrap justify-center gap-x-[0.3em] pb-2"
+          className="logo-text text-5xl md:text-7xl lg:text-8xl mb-8 overflow-hidden flex flex-wrap justify-center gap-x-[0.3em] pb-4"
           style={{ perspective: '1000px' }}
         >
           {logoText.split(' ').map((word, wordIndex) => (
