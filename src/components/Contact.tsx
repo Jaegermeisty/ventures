@@ -8,7 +8,7 @@ export default function Contact() {
   const isInView = useInView(sectionRef, { once: true, margin: '-100px' });
   const [copied, setCopied] = useState(false);
 
-  const email = 'mathiasjgerpedersen@hotmail.com';
+  const email = 'mathias.jpventures@gmail.com';
 
   const handleCopyEmail = async () => {
     try {
