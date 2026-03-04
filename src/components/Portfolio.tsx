@@ -21,7 +21,16 @@ const projects: Project[] = [
     type: 'web',
     image: '/palescript.png',
     link: 'https://palescript.com',
-    tags: ['Web App', 'React', 'Journaling'],
+    tags: ['Web App', 'JS', 'Journaling'],
+  },
+  {
+    title: 'Summit',
+    description:
+      'Summit is a clean, powerful workout tracker that keeps your plans, sessions, and progress in one place. Build your routines, log your lifts, and see exactly how you’re getting stronger over time.',
+    type: 'ios',
+    image: '/summit.png',
+    link: 'https://apps.apple.com/no/app/summit-workout-tracker/id6758953092',
+    tags: ['iOS App', 'SwiftUI', 'Fitness'],
   },
   {
     title: 'Daily Catholic Quotes',
