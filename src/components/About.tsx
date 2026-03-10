@@ -105,7 +105,7 @@ export default function About() {
           <div className="grid grid-cols-3 gap-8 text-center">
             <div>
               <span className="block font-display text-4xl md:text-5xl text-accent mb-2">
-                2
+                3
               </span>
               <span className="font-body text-sm text-muted uppercase tracking-wider">
                 Projects Live
@@ -117,14 +117,6 @@ export default function About() {
               </span>
               <span className="font-body text-sm text-muted uppercase tracking-wider">
                 Based in Norway
-              </span>
-            </div>
-            <div>
-              <span className="block font-display text-4xl md:text-5xl text-foreground mb-2">
-                &infin;
-              </span>
-              <span className="font-body text-sm text-muted uppercase tracking-wider">
-                Passion
               </span>
             </div>
           </div>
