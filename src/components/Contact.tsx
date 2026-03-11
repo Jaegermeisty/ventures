@@ -70,7 +70,7 @@ export default function Contact() {
           variants={itemVariants}
           className="font-display text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight"
         >
-          Let&apos;s create something{' '}
+          Creating something{' '}
           <span className="text-accent italic">remarkable</span>
         </motion.h2>
 
@@ -78,7 +78,7 @@ export default function Contact() {
           variants={itemVariants}
           className="font-body text-xl text-muted mb-12 max-w-2xl mx-auto"
         >
-          Have a project in mind? Want to discuss an idea? I&apos;d love to hear
+          Any problems with any of the applications? Want to discuss an idea? We would love to hear
           from you.
         </motion.p>
 
