@@ -67,14 +67,13 @@ export default function About() {
           <div>
             <p className="font-body text-lg md:text-xl text-muted leading-relaxed mb-6">
               Jæger-Pedersen Ventures is a Norwegian sole proprietorship dedicated to
-              crafting exceptional digital products. We specialize in creating
+              crafting digital products. We specialize in creating
               websites and iOS applications that combine thoughtful design with
-              technical excellence.
+              innovative ideas.
             </p>
             <p className="font-body text-lg md:text-xl text-muted leading-relaxed">
               Every project is approached with meticulous attention to detail,
-              ensuring that the end result is not just functional, but truly
-              memorable.
+              ensuring that the end result is both functional and memorable.
             </p>
           </div>
 
@@ -83,15 +82,15 @@ export default function About() {
               <h3 className="font-display text-2xl mb-2">Web Development</h3>
               <p className="font-body text-muted">
                 Modern, responsive websites built with cutting-edge technologies.
-                From landing pages to complex web applications.
+                Web applications that are created for a specific purpose.
               </p>
             </div>
 
             <div className="border-l-2 border-accent/30 pl-6">
               <h3 className="font-display text-2xl mb-2">iOS Apps</h3>
               <p className="font-body text-muted">
-                Native iOS applications designed for performance and user
-                experience. Widgets, apps, and everything in between.
+                Native iOS applications designed for user
+                experience that fills a users need. Widgets, apps, and everything in between.
               </p>
             </div>
           </div>
