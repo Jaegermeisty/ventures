@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import projects from '@/content/projects';
 
 export default function About() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -101,16 +102,16 @@ export default function About() {
           variants={itemVariants}
           className="mt-20 pt-12 border-t border-border"
         >
-          <div className="grid grid-cols-3 gap-8 text-center">
-            <div>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-10 sm:gap-16 text-center">
+            <div className="min-w-[160px]">
               <span className="block font-display text-4xl md:text-5xl text-accent mb-2">
-                3
+                {projects.length}
               </span>
               <span className="font-body text-sm text-muted uppercase tracking-wider">
                 Projects Live
               </span>
             </div>
-            <div>
+            <div className="min-w-[160px]">
               <span className="block font-display text-4xl md:text-5xl text-foreground mb-2">
                 NO
               </span>
