@@ -9,6 +9,15 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    title: 'Flumen: eBook Reader',
+    description:
+      'A calm, private EPUB reader for building a beautiful personal library. Import your own books, discover public-domain classics, and read with elegant themes, progress tracking, notes, and optional iCloud sync.',
+    type: 'ios',
+    image: '/flumen1ipad.jpg',
+    link: 'https://apps.apple.com/no/app/flumen-ebook-reader/id6776182656',
+    tags: ['iOS App', 'SwiftUI', 'eBooks'],
+  },
+  {
     title: 'Palescript',
     description:
       'A book-centric journaling web application for readers who write about what they read. Capture your thoughts, track your reading journey, and build a personal library of insights.',
