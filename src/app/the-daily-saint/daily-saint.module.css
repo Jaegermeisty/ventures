@@ -1,0 +1,194 @@
+.shell {
+  --page: #222421;
+  --cream: #faf5eb;
+  --body: #ded9cf;
+  --secondary: #afa99b;
+  --border: rgba(158, 148, 128, 0.75);
+  --rule: rgba(158, 148, 128, 0.28);
+  --selected: #3d3e36;
+  --serif: ui-serif, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: var(--page);
+  color: var(--body);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page {
+  box-sizing: border-box;
+  width: min(100% - 96px, 620px);
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+.backLink {
+  display: inline-block;
+  color: var(--secondary);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.header {
+  padding-top: 52px;
+  text-align: center;
+}
+
+.masthead {
+  margin: 0 0 28px;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  line-height: 1.35;
+}
+
+.title,
+.heading {
+  color: var(--cream);
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.title {
+  margin: 0;
+  font-size: 34px;
+  line-height: 1.18;
+}
+
+.detail {
+  margin: 14px 0 0;
+  color: var(--secondary);
+  font-size: 14px;
+}
+
+.intro {
+  margin: 20px auto 0;
+  max-width: 560px;
+  text-align: center;
+}
+
+.shortRule {
+  width: 56px;
+  height: 1px;
+  margin: 30px auto 34px;
+  background: var(--rule);
+}
+
+.contents {
+  margin: 0 0 36px;
+  padding: 0 0 28px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.contentsLabel {
+  margin: 0 0 10px;
+  color: var(--secondary);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.contentsList {
+  display: grid;
+  gap: 6px 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  padding-left: 20px;
+}
+
+.section {
+  scroll-margin-top: 24px;
+}
+
+.heading {
+  margin: 44px 0 14px;
+  font-size: 25px;
+  line-height: 1.25;
+}
+
+.section:first-of-type .heading {
+  margin-top: 0;
+}
+
+.afterword {
+  margin-top: 44px;
+}
+
+.shell p,
+.shell ul {
+  margin: 0 0 20px;
+}
+
+.shell ul {
+  padding-left: 25px;
+}
+
+.shell li + li {
+  margin-top: 8px;
+}
+
+.shell a {
+  color: var(--cream);
+  text-decoration-color: var(--border);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.shell a:hover {
+  background: var(--selected);
+}
+
+.shell a:focus-visible {
+  outline: 1px solid var(--border);
+  outline-offset: 4px;
+}
+
+.footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+  color: var(--secondary);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .shell {
+    font-size: 17px;
+  }
+
+  .page {
+    width: min(100% - 60px, 620px);
+    padding-top: 20px;
+  }
+
+  .header {
+    padding-top: 28px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .heading {
+    margin-top: 38px;
+    font-size: 23px;
+  }
+
+  .afterword {
+    margin-top: 38px;
+  }
+
+  .contentsList {
+    display: block;
+  }
+
+  .contentsList li + li {
+    margin-top: 6px;
+  }
+}
